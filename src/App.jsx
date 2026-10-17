@@ -64,7 +64,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/orders" element={<Orders />}>
+        <Route path="/" element={<Orders />}>
           <Route path="current" element={<CurrentOrders />} />
           <Route path="history" element={<OrderHistory />} />
           <Route path="cancelled" element={<CancelledOrders />} />
